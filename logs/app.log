@@ -1,0 +1,132 @@
+2024-01-27 18:46:42 INFO  Espresso:14 - current logs brew
+2024-01-27 18:56:09 ERROR Main:21 - java.lang.Exception: can't add sugar more than 3!
+2024-01-27 18:56:27 ERROR Main:21 - java.lang.Exception: can't add sugar more than 3!
+	at edu.bu.met.cs665.beverage.BeverageStrategy.addCondiments(BeverageStrategy.java:68)
+	at edu.bu.met.cs665.beverage.Espresso.addCondiments(Espresso.java:3)
+	at edu.bu.met.cs665.Main.main(Main.java:15)
+
+2024-01-27 19:02:00 INFO  TestBeverage:24 - Espresso(Beverage):2.00$
+total price:2.00$
+2024-01-27 19:04:47 INFO  TestBeverage:52 - Green Tea(Beverage):9.00$
+sugar(Beverage):0.50$
+milk(Beverage):0.50$
+total price:10.00$
+2024-01-27 19:05:21 INFO  TestBeverage:52 - Receipt:
+Green Tea(Beverage):9.00$
+sugar(Beverage):0.50$
+milk(Beverage):0.50$
+total price:10.00$
+2024-01-27 19:05:37 INFO  TestBeverage:52 - 
+Receipt:
+Green Tea(Beverage):9.00$
+sugar(Beverage):0.50$
+milk(Beverage):0.50$
+total price:10.00$
+2024-01-27 21:03:39 INFO  TestBeverage:57 - Yellow Tea(Beverage):20.00$
+sugar(Beverage):0.50$
+milk(Beverage):0.50$
+milk(Beverage):0.50$
+total price:21.50$
+2024-01-27 21:03:39 INFO  TestBeverage:59 - Yellow Tea(Beverage):20.00$
+sugar(Beverage):0.50$
+milk(Beverage):0.50$
+milk(Beverage):0.50$
+milk(Beverage):0.50$
+total price:22.00$
+2024-01-27 21:03:39 INFO  TestBeverage:61 - 22.0
+2024-01-27 21:04:17 INFO  TestBeverage:57 - Yellow Tea(Beverage):20.00$
+sugar(Beverage):0.50$
+milk(Beverage):0.50$
+milk(Beverage):0.50$
+total price:21.50$
+2024-01-27 21:04:17 INFO  TestBeverage:59 - Yellow Tea(Beverage):20.00$
+sugar(Beverage):0.50$
+milk(Beverage):0.50$
+milk(Beverage):0.50$
+sugar(Beverage):0.50$
+total price:22.00$
+2024-01-27 21:04:17 INFO  TestBeverage:61 - 22.0
+2024-01-27 21:14:54 INFO  TestBeverage:21 - 
+Receipt:
+Espresso(Beverage):2.00$
+total price:2.00$
+2024-01-27 21:14:54 INFO  TestBeverage:34 - 
+Receipt:
+Espresso(Beverage):2.00$
+sugar(Beverage):0.50$
+milk(Beverage):0.50$
+total price:3.00$
+2024-01-27 21:14:54 INFO  TestBeverage:57 - Yellow Tea(Beverage):20.00$
+sugar(Beverage):0.50$
+milk(Beverage):0.50$
+milk(Beverage):0.50$
+total price:21.50$
+2024-01-27 21:14:54 INFO  TestBeverage:59 - Yellow Tea(Beverage):20.00$
+sugar(Beverage):0.50$
+milk(Beverage):0.50$
+milk(Beverage):0.50$
+sugar(Beverage):0.50$
+total price:22.00$
+2024-01-27 21:14:54 INFO  TestBeverage:61 - 22.0
+2024-01-27 21:14:54 INFO  TestBeverage:49 - 
+Receipt:
+Green Tea(Beverage):9.00$
+sugar(Beverage):0.50$
+milk(Beverage):0.50$
+total price:10.00$
+2024-01-27 21:15:52 INFO  TestBeverage:21 - 
+Receipt:
+Espresso(Beverage):2.00$
+total price:2.00$
+2024-01-27 21:15:52 INFO  TestBeverage:34 - 
+Receipt:
+Espresso(Beverage):2.00$
+sugar(Beverage):0.50$
+milk(Beverage):0.50$
+total price:3.00$
+2024-01-27 21:15:52 INFO  TestBeverage:57 - Yellow Tea(Beverage):20.00$
+sugar(Beverage):0.50$
+milk(Beverage):0.50$
+milk(Beverage):0.50$
+total price:21.50$
+2024-01-27 21:15:52 INFO  TestBeverage:59 - Yellow Tea(Beverage):20.00$
+sugar(Beverage):0.50$
+milk(Beverage):0.50$
+milk(Beverage):0.50$
+sugar(Beverage):0.50$
+total price:22.00$
+2024-01-27 21:15:52 INFO  TestBeverage:61 - 22.0
+2024-01-27 21:15:52 INFO  TestBeverage:49 - 
+Receipt:
+Green Tea(Beverage):9.00$
+sugar(Beverage):0.50$
+milk(Beverage):0.50$
+total price:10.00$
+2024-01-27 21:38:20 INFO  TestBeverage:21 - 
+Receipt:
+Espresso(Beverage):2.00$
+total price:2.00$
+2024-01-27 21:38:20 INFO  TestBeverage:34 - 
+Receipt:
+Espresso(Beverage):2.00$
+sugar(Beverage):0.50$
+milk(Beverage):0.50$
+total price:3.00$
+2024-01-27 21:38:20 INFO  TestBeverage:57 - Yellow Tea(Beverage):20.00$
+sugar(Beverage):0.50$
+milk(Beverage):0.50$
+milk(Beverage):0.50$
+total price:21.50$
+2024-01-27 21:38:20 INFO  TestBeverage:59 - Yellow Tea(Beverage):20.00$
+sugar(Beverage):0.50$
+milk(Beverage):0.50$
+milk(Beverage):0.50$
+sugar(Beverage):0.50$
+total price:22.00$
+2024-01-27 21:38:20 INFO  TestBeverage:61 - 22.0
+2024-01-27 21:38:20 INFO  TestBeverage:49 - 
+Receipt:
+Green Tea(Beverage):9.00$
+sugar(Beverage):0.50$
+milk(Beverage):0.50$
+total price:10.00$

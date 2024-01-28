@@ -14,7 +14,7 @@
     <!-- This line specifies the packaging type of the project, which in this case is "jar" (Java Archive), meaning that the project will be packaged as a JAR file. -->
     <packaging>jar</packaging>
     <!-- This line sets the name of the Maven project to "JavaProjectTemplate". It can be used to give the project a more descriptive name than just the artifact ID. -->
-    <name>JavaProjectTemplate</name>
+    <name>AutomaticBeverageMachine</name>
     <!-- Specifies the URL where information about the project can be found -->
     <url>http://maven.apache.org</url>
     <!-- The <properties> element is used to define project-wide properties.
@@ -110,19 +110,19 @@
                     <cleanupDaemonThreads>false</cleanupDaemonThreads>
                 </configuration>
             </plugin>
-<!--            <plugin>-->
-<!--                <artifactId>maven-assembly-plugin</artifactId>-->
-<!--                <configuration>-->
-<!--                    <archive>-->
-<!--                        <manifest>-->
-<!--                            <mainClass>fully.qualified.MainClass</mainClass>-->
-<!--                        </manifest>-->
-<!--                    </archive>-->
-<!--                    <descriptorRefs>-->
-<!--                        <descriptorRef>jar-with-dependencies</descriptorRef>-->
-<!--                    </descriptorRefs>-->
-<!--                </configuration>-->
-<!--            </plugin>-->
+            <!--            <plugin>-->
+            <!--                <artifactId>maven-assembly-plugin</artifactId>-->
+            <!--                <configuration>-->
+            <!--                    <archive>-->
+            <!--                        <manifest>-->
+            <!--                            <mainClass>fully.qualified.MainClass</mainClass>-->
+            <!--                        </manifest>-->
+            <!--                    </archive>-->
+            <!--                    <descriptorRefs>-->
+            <!--                        <descriptorRef>jar-with-dependencies</descriptorRef>-->
+            <!--                    </descriptorRefs>-->
+            <!--                </configuration>-->
+            <!--            </plugin>-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-checkstyle-plugin</artifactId>
@@ -159,8 +159,13 @@
         </dependency>
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
+            <artifactId>log4j-api</artifactId>
+            <version>2.22.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-core</artifactId>
-            <version>2.19.0</version>
+            <version>2.22.1</version>
         </dependency>
     </dependencies>
 </project>
