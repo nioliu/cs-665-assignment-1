@@ -130,3 +130,35 @@ Green Tea(Beverage):9.00$
 sugar(Beverage):0.50$
 milk(Beverage):0.50$
 total price:10.00$
+2024-02-01 19:03:00 INFO  TestBeverage:21 - 
+Receipt:
+Espresso(Beverage):2.00$
+total price:2.00$
+2024-02-01 19:03:00 INFO  TestBeverage:34 - 
+Receipt:
+Espresso(Beverage):2.00$
+sugar(Beverage):0.50$
+milk(Beverage):0.50$
+total price:3.00$
+2024-02-01 19:03:00 INFO  TestBeverage:57 - Yellow Tea(Beverage):20.00$
+sugar(Beverage):0.50$
+milk(Beverage):0.50$
+milk(Beverage):0.50$
+total price:21.50$
+2024-02-01 19:03:00 INFO  TestBeverage:59 - Yellow Tea(Beverage):20.00$
+sugar(Beverage):0.50$
+milk(Beverage):0.50$
+milk(Beverage):0.50$
+sugar(Beverage):0.50$
+total price:22.00$
+2024-02-01 19:03:00 INFO  TestBeverage:61 - 22.0
+2024-02-01 19:03:00 INFO  TestBeverage:49 - 
+Receipt:
+Green Tea(Beverage):9.00$
+sugar(Beverage):0.50$
+milk(Beverage):0.50$
+total price:10.00$
+2024-02-01 19:10:01 INFO  TestBeverage:21 - 
+Receipt:
+Espresso(Beverage):2.00$
+total price:2.00$

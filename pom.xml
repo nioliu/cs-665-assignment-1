@@ -8,13 +8,13 @@
     <!-- This is the Maven groupId of the project, which identifies the project uniquely across all projects. -->
     <groupId>edu.bu.cs665</groupId>
     <!-- This specifies the name of the project's artifact (e.g., the compiled output file or library) that will be created when the project is built. -->
-    <artifactId>cs-665-assignment-1</artifactId>
+    <artifactId>JavaProjectTemplate</artifactId>
     <!-- The version of the project -->
     <version>1.0-SNAPSHOT</version>
     <!-- This line specifies the packaging type of the project, which in this case is "jar" (Java Archive), meaning that the project will be packaged as a JAR file. -->
     <packaging>jar</packaging>
     <!-- This line sets the name of the Maven project to "JavaProjectTemplate". It can be used to give the project a more descriptive name than just the artifact ID. -->
-    <name>AutomaticBeverageMachine</name>
+    <name>JavaProjectTemplate</name>
     <!-- Specifies the URL where information about the project can be found -->
     <url>http://maven.apache.org</url>
     <!-- The <properties> element is used to define project-wide properties.
@@ -58,6 +58,23 @@
      like code coverage, test results, and documentation. The reporting configuration
      is separate from the build configuration and is intended to be used for generating
      documentation for the project. -->
+    <reporting>
+        <!-- The <plugins> element is used to configure the plugins that are used during the
+     build process. Plugins are used to perform various tasks, such as compiling code,
+     running tests, generating documentation, and more. The plugins are executed in the
+     order that they appear in the pom.xml file. -->
+        <plugins>
+            <plugin>
+                <!-- The <groupId> element specifies the group ID of the plugin. The group ID is
+     used to uniquely identify the plugin in the Maven repository. In this case, the
+     group ID is `org.apache.maven.plugins`, which is the group ID used for the
+     standard Maven plugins. -->
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jxr-plugin</artifactId>
+                <version>2.5</version>
+            </plugin>
+        </plugins>
+    </reporting>
     <build>
         <extensions>
             <extension>
@@ -110,19 +127,19 @@
                     <cleanupDaemonThreads>false</cleanupDaemonThreads>
                 </configuration>
             </plugin>
-            <!--            <plugin>-->
-            <!--                <artifactId>maven-assembly-plugin</artifactId>-->
-            <!--                <configuration>-->
-            <!--                    <archive>-->
-            <!--                        <manifest>-->
-            <!--                            <mainClass>fully.qualified.MainClass</mainClass>-->
-            <!--                        </manifest>-->
-            <!--                    </archive>-->
-            <!--                    <descriptorRefs>-->
-            <!--                        <descriptorRef>jar-with-dependencies</descriptorRef>-->
-            <!--                    </descriptorRefs>-->
-            <!--                </configuration>-->
-            <!--            </plugin>-->
+            <plugin>
+                <artifactId>maven-assembly-plugin</artifactId>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <mainClass>fully.qualified.MainClass</mainClass>
+                        </manifest>
+                    </archive>
+                    <descriptorRefs>
+                        <descriptorRef>jar-with-dependencies</descriptorRef>
+                    </descriptorRefs>
+                </configuration>
+            </plugin>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-checkstyle-plugin</artifactId>
@@ -159,13 +176,8 @@
         </dependency>
         <dependency>
             <groupId>org.apache.logging.log4j</groupId>
-            <artifactId>log4j-api</artifactId>
-            <version>2.22.1</version>
-        </dependency>
-        <dependency>
-            <groupId>org.apache.logging.log4j</groupId>
             <artifactId>log4j-core</artifactId>
-            <version>2.22.1</version>
+            <version>2.19.0</version>
         </dependency>
     </dependencies>
 </project>

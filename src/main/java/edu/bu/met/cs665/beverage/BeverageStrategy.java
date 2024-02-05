@@ -4,6 +4,13 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 
+/**
+ * Name: Yulong Liu
+ * Course: CS-665 Software Designs & Patterns
+ * Date: 2024/2/1 19:22
+ * File Name: BeverageStrategy.java
+ * Description: Beverage Strategy abstract class
+ */
 // can't be invoked by external package
 abstract class BeverageStrategy {
     // save all the condiments need to add
