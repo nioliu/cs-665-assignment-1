@@ -6,19 +6,9 @@ import edu.bu.met.cs665.beverage.Sugar;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
-/**
- * Name: Yulong Liu
- * Course: CS-665 Software Designs & Patterns
- * Date: 2024/2/5 13:16
- * File Name: Main.java
- * Description: Test Main
- */
 public class Main {
     protected static final Logger parentLogger = LogManager.getLogger();
 
-    /**
-     * this is used to test the basic method
-     */
     public static void main(String[] args) {
         try {
             Espresso espresso = new Espresso();
